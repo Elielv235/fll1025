@@ -3,7 +3,7 @@ import People from './People';
 import React from 'react';
 function peopleGrid(props) {
   return (
-    <div id='Media'>
+    <div id='Team'>
     <div class="container">
         <h1 class="title">אנשי הקבוצה</h1>
         <div class="photo-gallery">
