@@ -5,7 +5,7 @@ function NavBar(props) {
   return (
     <div id='Media'>
     <div class="container">
-        <h2 class="title">Media</h2>
+        <h2 class="title">מדיה</h2>
         <div class="photo-gallery">
             <div class="column">
                 <Grid_Image  number="1" />

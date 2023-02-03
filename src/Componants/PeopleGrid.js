@@ -5,14 +5,14 @@ function peopleGrid(props) {
   return (
     <div id='Media'>
     <div class="container">
-        <h2 class="title">Media</h2>
+        <h1 class="title">אנשי הקבוצה</h1>
         <div class="photo-gallery">
             <div class="column">
                 <People  number="1" />
                 <People  number="2" />
                 <People  number="3" />
                 <People  number="11" />
-people
+
             </div>
             <div class="column">
                 <People  number="10" />
