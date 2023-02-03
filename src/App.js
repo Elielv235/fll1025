@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import * as Componants from './imports'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Componants.NavBar/>
+      <div className='container'>
+        <h1 className='text'>שלום</h1>
+        <h1 className='text'>וברוכים הבאים ל</h1>
+      <div className='container'>
+      <div className='animation'>
+        <h1 className='first'>Agnon</h1>
+        <h1 className='slide'>
+          <h1 className='secend'>Energy Team</h1>
+        </h1>
+
+        </div>
+      </div>
+      </div>
+      <Componants.ImageGrid/>
     </div>
   );
 }
