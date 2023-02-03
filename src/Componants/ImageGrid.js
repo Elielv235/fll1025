@@ -3,6 +3,7 @@ import Grid_Image from './image';
 import React from 'react';
 function NavBar(props) {
   return (
+    <div id='Media'>
     <div class="container">
         <h2 class="title"></h2>
         <div class="photo-gallery">
@@ -23,6 +24,7 @@ function NavBar(props) {
                 <Grid_Image  number="5" />
             </div>
         </div>
+    </div>
     </div>
   );
 }

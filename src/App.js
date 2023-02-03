@@ -3,25 +3,25 @@ import './App.css';
 import * as Componants from './imports'
 function App() {
   return (
-    <div className="App">
-
+    <div id='home' className="Home">
       <Componants.NavBar/>
       <div className='container'>
-        <h1 className='text'>שלום</h1>
-        <h1 className='text'>וברוכים הבאים ל</h1>
-      <div className='container'>
-      <div className='animation'>
-        <h1 className='first'>Agnon</h1>
-        <h1 className='slide'>
-          <h1 className='secend'>Energy Team</h1>
-        </h1>
+        <h1 className='text reveal'>שלום</h1>
+        <h1 className='text reveal'>וברוכים הבאים ל</h1>
+        <h1 className='text reveal'>Agnon</h1>
+        <h1 className='text reveal'>Energy</h1>
+        <h1 className='text reveal'>Team</h1>
 
-        </div>
+
+        
       </div>
-      </div>
+      <Componants.About/>
+      
       <Componants.ImageGrid/>
     </div>
   );
 }
+
+
 
 export default App;

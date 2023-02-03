@@ -3,10 +3,10 @@ function NavBar() {
   return (
     <div className="App">
         <nav className='NavBar'>
-            <a className='Nav_items' href=''>בית</a>
-            <a className='Nav_items' href=''>אודות</a>
-            <a className='Nav_items' href=''>חברי הקבוצה</a>
-            <a className='Nav_items' href=''>מדיה</a>
+            <a className='Nav_items' href='#home'>בית</a>
+            <a className='Nav_items' href='#AboutUs'>אודות</a>
+            <a className='Nav_items' href='#Team'>חברי הקבוצה</a>
+            <a className='Nav_items' href='#Media'>מדיה</a>
         </nav>
     </div>
   );

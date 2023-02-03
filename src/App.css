@@ -37,13 +37,19 @@
   .image-grid {
       flex-direction: column;
   }
+  .text{
+  
+  }
 }
-.width-50{
-  height: 50%;
-}
+
 .NavBar{
   text-align: center;
-
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 99999999;
+  border-radius: 10px;
 }
 .Nav_items{
   width: 100%;
@@ -60,8 +66,8 @@
 
 
 .text{
-  animation-delay: 3s;
-  font-family:Arial, Helvetica, sans-serif;
+  animation-delay: 1s;
+  font-family:sans-serif;
 	font-size: 60px;
 	text-align: center;
 	padding: 0;
@@ -72,7 +78,7 @@
 	animation: slide-in-anim 1.5s ease-out forwards;
 }
 .text:nth-child(2){
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:sans-serif;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -83,9 +89,7 @@
   animation-delay: 1s;
 }
 .text:nth-child(3){
-  animation-delay: 3s;
-  font-family:Arial, Helvetica, sans-serif;
-	font-size: 60px;
+  font-family:sans-serif;
 	text-align: center;
 	padding: 0;
 	margin: 0;
@@ -93,7 +97,32 @@
 	transform: translateX(200%);
 	opacity: 0;
 	animation: slide-in-anim 1.5s ease-out forwards;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
+}
+.text:nth-child(4){
+  font-family:sans-serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(-200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+  animation-delay:2s;
+}
+.text:nth-child(5){
+  font-family:sans-serif;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	margin-left: 50%;
+	transform: translateX(200%);
+	opacity: 0;
+	animation: slide-in-anim 1.5s ease-out forwards;
+  animation-delay: 2.5s;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 
