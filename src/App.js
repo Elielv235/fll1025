@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import * as Componants from './imports'
 function App() {
@@ -16,7 +15,7 @@ function App() {
         
       </div>
       <Componants.About/>
-      
+      <Componants.PeopleGrid/>
       <Componants.ImageGrid/>
     </div>
   );
