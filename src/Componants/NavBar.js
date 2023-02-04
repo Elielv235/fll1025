@@ -1,8 +1,9 @@
 import '../App.css'
 import Grid_Image from './children/image';
 function NavBar() {
+
   return (
-    <div className="App">
+    <div  className="App">
         <nav className='NavBar'>
         <div className="Logo">
             <Grid_Image number="logo" className="Logo"/>

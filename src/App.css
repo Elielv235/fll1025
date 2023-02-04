@@ -15,7 +15,7 @@
   width: 15%;
 }
 .textnav{
-  
+  margin-top: -30px;
   padding-bottom: 0.2%;
   border-bottom:1px solid black ;
   margin-bottom: 20px;
@@ -32,7 +32,7 @@ padding-right: 50%;
   /*border-radius: 15px;*/
 }
 .container{
-
+  margin-bottom: 100%;
   width: 100%;
   margin: auto;
   padding: 40px 0;
@@ -61,10 +61,13 @@ font-size: 35px;
   object-fit: cover;
   margin-bottom: 5px;
 }
+.Eliel{
+  margin-bottom: 20%;
+}
 .nameonphoto{
   position: absolute;
-  margin-top: -35.5%;
-  margin-left: 12.5%;
+  margin-top: -35.0%;
+  margin-left: 15%;
 
   font-weight: lighter;
   direction: rtl;
@@ -86,6 +89,9 @@ font-size: 35px;
     
     width: 25%;
   }
+  .Eliel{
+    margin-bottom: 35%;
+  }
 }
 
 .NavBar{
@@ -100,6 +106,7 @@ font-size: 35px;
   width: 100%;
   z-index: 99999999;
   border-radius: 10px;
+
 }
 .NavBar > a{
   width: 100%;
@@ -128,8 +135,12 @@ font-size: 35px;
 	opacity: 0;
 	animation: slide-in-anim 1.5s ease-out forwards;
 }
+.text:nth-child(1){
+  width: 100%;
 
+}
 .text:nth-child(2){
+  width: 100%;
   font-family:sans-serif;
 	text-align: center;
 	padding: 0;
@@ -140,7 +151,18 @@ font-size: 35px;
 	animation: slide-in-anim 1.5s ease-out forwards;
   animation-delay: 1s;
 }
+
+.textofpeople::after{
+width: 100%;
+content: '\a';
+white-space: pre;
+  
+}
+.gapbetween{
+  margin-bottom: -20%;
+}
 .text:nth-child(3){
+  width: 100%;
   font-family:sans-serif;
 	text-align: center;
 	padding: 0;
@@ -152,6 +174,7 @@ font-size: 35px;
   animation-delay: 1.5s;
 }
 .text:nth-child(4){
+  width: 100%;
   font-family:sans-serif;
 	text-align: center;
 	padding: 0;
@@ -163,6 +186,7 @@ font-size: 35px;
   animation-delay:2s;
 }
 .text:nth-child(5){
+  width: 100%;
   font-family:sans-serif;
 	text-align: center;
 	padding: 0;
