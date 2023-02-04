@@ -3,7 +3,7 @@ const Grid_Image =  props => {
     console.log(props)
     return (
         <div className="photo">
-            <img src={require(`../../public/images/${props.number}.jpeg`)} alt={props.alt}/>
+            <img src={require(`../../../public/images/${props.number}.jpeg`)} alt={props.alt}/>
         </div>
     )
     }

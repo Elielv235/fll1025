@@ -1,18 +1,25 @@
 import '../App.css';
-import Grid_Image from './image';
+import Grid_Image from '../imports';
 
+import React from 'react';
+function Home(days) {
 
-function Home() {
   return (
     <div id='home' className="Home">
-        
-        <div className='container'>
-            <h1 className='text reveal'>שלום</h1>
-            <h1 className='text reveal'>וברוכים הבאים ל</h1>
-            <h1 className='text reveal'>Agnon</h1>
-            <h1 className='text reveal'>Energy</h1>
-            <h1 className='text reveal'>Team</h1>
-        </div>
+      <h3></h3>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className='container'>
+        <h1 className='text'>שלום</h1>
+        <h1 className='text'>וברוכים הבאים ל</h1>
+        <h1 className='text'>Agnon</h1>
+        <h1 className='text'>Energy</h1>
+        <h1 className='text'>Team</h1>
+      </div>
     </div>
   );
 }

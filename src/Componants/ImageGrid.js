@@ -1,5 +1,5 @@
 import '../App.css'
-import Grid_Image from './image';
+import Grid_Image from './children/image';
 import React from 'react';
 function NavBar(props) {
   return (
