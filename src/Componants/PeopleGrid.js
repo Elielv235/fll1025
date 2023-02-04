@@ -18,7 +18,7 @@ function peopleGrid(props) {
             <div class="column">
                 <Componants.People name="שי"  number="10" />
                 <Componants.People name="מאיה"  number="4" />
-                <Componants.People name="עפרי" number="6" />
+                <Componants.People name="עופרי" number="6" />
                 <Componants.People name="יניב"  number="12" />
             </div>
             <div class="column">
