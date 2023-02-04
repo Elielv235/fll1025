@@ -90,6 +90,7 @@ text-align: center;
 
 
 .text{
+  margin-top: 125%;
   animation-delay: 1s;
   font-family:sans-serif;
 	font-size: 60px;
