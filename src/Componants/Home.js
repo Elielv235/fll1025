@@ -7,12 +7,9 @@ function Home(days) {
   return (
     <div id='home' className="Home">
       <h3></h3>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+
+
+
       <div className='container'>
         <h1 className='text'>שלום</h1>
         <h1 className='text'>וברוכים הבאים ל</h1>

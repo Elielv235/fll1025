@@ -1,17 +1,21 @@
 *{
   padding: 0;
   margin: 0;
-
+  overflow-x: hidden;
 }
 
+.totle{
+  text-align: center;
+}
 .Logo{
-  margin-left: 38%;
+  margin-left: 42%;
   
 
   
-  width: 25%;
+  width: 15%;
 }
 .textnav{
+  
   padding-bottom: 0.2%;
   border-bottom:1px solid black ;
   margin-bottom: 20px;
@@ -29,7 +33,7 @@ padding-right: 50%;
 }
 .container{
 
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 40px 0;
 }
@@ -57,14 +61,30 @@ font-size: 35px;
   object-fit: cover;
   margin-bottom: 5px;
 }
+.nameonphoto{
+  position: absolute;
+  margin-top: -35.5%;
+  margin-left: 12.5%;
+
+  font-weight: lighter;
+  direction: rtl;
+  
+
+}
+
+
 
 
 @media screen and (max-width: 768px) {
   .image-grid {
       flex-direction: column;
   }
-  .text{
+  .Logo{
+    margin-left: 38%;
+    
   
+    
+    width: 25%;
   }
 }
 
