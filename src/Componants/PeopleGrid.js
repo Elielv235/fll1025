@@ -6,7 +6,7 @@ function peopleGrid(props) {
   return (
     <div id='Team'>
     <div class="container">
-        <h2 class="title">אנשי הקבוצה</h2>
+        <h2 class="title">חברי הקבוצה</h2>
         <div class="photo-gallery">
             <div class="column">
                 <Componants.People name="אליאל"  number="1" />
