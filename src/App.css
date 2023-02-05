@@ -92,6 +92,12 @@ font-size: 35px;
   .Eliel{
     margin-bottom: 35%;
   }
+.NavBar > a:hover{
+  color: white;
+  background-color: black;
+  transition: 1S;
+  /*border-radius: 15px;*/
+}
 }
 
 .NavBar{
