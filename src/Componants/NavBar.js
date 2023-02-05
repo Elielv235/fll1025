@@ -6,7 +6,7 @@ function NavBar() {
     <div  className="App">
         <nav className='NavBar'>
         <div className="Logo">
-            <Grid_Image number="logo" className="Logo"/>
+            <img src={require('../../public/logo192')} className="Logo"/>
         </div>
         <h2 className='textnav'>Agnon energy Team #1052</h2>
             <a href='#home'>בית</a>
