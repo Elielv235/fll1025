@@ -25,7 +25,7 @@
 padding-left: 50%;
 padding-right: 50%;
 }
-.Nav_items:hover{
+.NavBar > a:hover{
   color: white;
   background-color: black;
   transition: 1S;
