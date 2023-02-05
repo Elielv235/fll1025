@@ -10,7 +10,7 @@ const People =  props => {
     return (
         <div className="photo">
             <div className='gapbetween'></div>
-            <h4 className='textofpeople' style={{opacity: active ? '1' : '0'}}>{props.text}</h4>
+            
             <a onClick={handleClick}>
             
             <img style={{filter: active ? 'blur(8px)' : ''}} src={require(`../../../public/images/people/${props.number}.jpeg`)} alt={props.alt}/>
