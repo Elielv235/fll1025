@@ -12,9 +12,9 @@ function Home(days) {
       <div className='container'>
         <h1 className='text'>שלום</h1>
         <h1 className='text'>וברוכים הבאים ל</h1>
-        <h1 className='text'>Agnon</h1>
-        <h1 className='text'>Energy</h1>
-        <h1 className='text'>Team</h1>
+        <h1 className='text Engfont'>Agnon</h1>
+        <h1 className='text Engfont'>Energy</h1>
+        <h1 className='text Engfont'>Team</h1>
       </div>
     </div>
   );

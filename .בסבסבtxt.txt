@@ -1,6 +1,5 @@
 https://codepen.io/alvarotrigo/pen/ZEJgqLN
-
+cd
 אנימציית העלמות(להוסיף DELAY בין האנימצה לפתיחה)
-חילוק לדפים
-להפוך את הצבעים בNAVBAR משחור ללבן
-להוריד את הקו מפריד בNAVBAR מתחת לדפים
+
+make the horver animation on the end navbar
