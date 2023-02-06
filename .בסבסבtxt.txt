@@ -1,0 +1,5 @@
+https://codepen.io/alvarotrigo/pen/ZEJgqLN
+cd
+אנימציית העלמות(להוסיף DELAY בין האנימצה לפתיחה)
+
+make the horver animation on the end navbar
