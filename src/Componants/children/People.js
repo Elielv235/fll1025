@@ -14,7 +14,7 @@ const People =  props => {
             <a onClick={handleClick}>
             
             <img style={{filter: active ? 'blur(8px)' : ''}} src={require(`../../../public/images/people/${props.number}.jpeg`)} alt={props.alt}/>
-            <h2 className='nameonphoto'>{active ? `` : `${props.name}`}</h2>
+            <h2 className='nameonphoto'>{active ? `${props.text}` : `${props.name}`}</h2>
             </a>
         </div>
     )

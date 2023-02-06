@@ -1,8 +1,11 @@
 import '../App.css'
+import * as Componants from '../imports'
 import Grid_Image from './children/image';
 import React from 'react';
 function NavBar(props) {
   return (
+<>
+<Componants.NavBar/>
     <div id='Media'>
     <div className="container">
         <h2 className="title">מדיה</h2>
@@ -31,6 +34,7 @@ function NavBar(props) {
         </div>
     </div>
     </div>
+</>
   );
 }
 

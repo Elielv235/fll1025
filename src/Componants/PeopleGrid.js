@@ -4,6 +4,8 @@ import React from 'react';
 function peopleGrid(props) {
 
   return (
+    <>
+    <Componants.NavBar/>
     <div id='Team'>
     <div className="container">
         <h2 className="title">חברי הקבוצה</h2>
@@ -31,6 +33,7 @@ function peopleGrid(props) {
         </div>
     </div>
     </div>
+    </>
   );
 }
 

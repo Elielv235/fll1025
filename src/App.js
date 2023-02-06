@@ -1,7 +1,7 @@
 import './App.css';
 
 import * as Componants from './imports'
-function App() {
+export function App() {
   return (
     <div id='home' className="Home">
       <Componants.NavBar/>
@@ -16,4 +16,3 @@ function App() {
 
 
 
-export default App;
